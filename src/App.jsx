@@ -1,5 +1,5 @@
 import { GlobalStyle } from './components/globalStyle'
-import { Header } from './components/header/index';
+import { Header } from './components/Header/index';
 
 
 
