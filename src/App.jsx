@@ -1,5 +1,5 @@
 import { GlobalStyle } from './components/globalStyle'
-import { Header } from './components/Header/index';
+import { AppRoutes } from 'routes';
 
 
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <Header />
+      <AppRoutes />
     </>
   )
 }

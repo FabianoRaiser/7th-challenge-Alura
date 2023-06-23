@@ -1,26 +1,33 @@
 import styled from 'styled-components';
 import logoMobile from './Logo_mobile.png'
-import { MenuHamburguer } from './MenuHamburguer';
+import { Menu } from './Menu';
 import { colorPreto } from 'components/ui/variaveis';
 import { CampoPesquisa } from './CampoPesquisa/index';
 import { BotaoPesquisa } from './BotaoPesquisa/index';
 
 const StyledHeader = styled.header`
-    position: absolute;
+    position: relative;
     left: 0%;
     right: 0%;
-    
+
+    @media (min-width: 768px) {
+        background-color: ${colorPreto};
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     `;
 
 const Cabecalho = styled.nav`
-    padding: 1.5rem 1.37rem;
+    padding: 1.5rem 1.37rem ;
     background-color: ${colorPreto};
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    position: relative;
-
+    @media (min-width: 768px) {
+        padding-right: 0;
+    }
 `
 
 const SytledSeachArea = styled.div`
@@ -30,6 +37,14 @@ const SytledSeachArea = styled.div`
     gap: 0.5em;
 
     justify-content: space-around;
+
+    @media (min-width: 768px) {
+        padding-right: 12px;
+    }
+
+    @media (min-width: 1440px) {
+        padding-right: 36px;
+    }
 `
 
 export const Header = () => {
@@ -39,7 +54,7 @@ export const Header = () => {
                 <Cabecalho>
                     {/* Alterar para um link do Router-DOM */}
                     <a><img src={logoMobile} /></a>
-                    <MenuHamburguer />
+                    <Menu />
                 </Cabecalho>
                 <SytledSeachArea>
                     <CampoPesquisa />

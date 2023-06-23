@@ -13,6 +13,14 @@ const StyledCampoPesquisa = styled.input`
         outline: none;
         border: 2px solid ${colorVerde};
     }
+
+    @media (min-width: 768px) {
+        width: 9.0625rem;
+    }
+
+    @media (min-width: 1440px) {
+        width: 320px;
+    }
 `
 
 export const CampoPesquisa = () => {
