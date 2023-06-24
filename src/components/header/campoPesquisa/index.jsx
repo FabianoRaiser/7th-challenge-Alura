@@ -19,7 +19,7 @@ const StyledCampoPesquisa = styled.input`
     }
 
     @media (min-width: 1440px) {
-        width: 320px;
+        width: 320px ;
     }
 `
 

@@ -4,6 +4,12 @@ import { useState } from 'react';
 import { Spin as Hamburger } from 'hamburger-react'
 import { MenuLista } from './MenuLista/index';
 
+const MenuMobile = styled.div`
+    @media (min-width: 768px) {
+        display: none;
+    }
+`
+
 const MenuHamburguer = styled.div`  
     position: absolute;
     top: 96px;
@@ -38,6 +44,7 @@ export const Menu = () => {
             <MenuLine>
                 <MenuLista />
             </MenuLine>
+            <MenuMobile>
                 <Hamburger toggled={isOpen} toggle={setOpen}
                     color={colorVerde}
                 />
@@ -46,6 +53,7 @@ export const Menu = () => {
                     <MenuLista />
                 </MenuHamburguer>
                 : ""}
+            </MenuMobile>
         </>
     )
 }
