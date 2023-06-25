@@ -1,0 +1,46 @@
+{
+    "categorias": [
+        {
+            "nome": "Camisetas",
+            "id": "cat_01",
+            "img357": "assets/Mobile/Categorias/Categoria-Camiseta.png", 
+            "img768": "assets/Tablet/Categorias/Categoria-Camiseta.png", 
+            "img1440": "assets/Desktop/Categorias/Categoria-Camiseta.png"
+        },
+        {
+            "nome": "Bolsas",
+            "id": "cat_02",
+            "img357": "assets/Mobile/Categorias/Categoria-Bolsas.png", 
+            "img768": "assets/Tablet/Categorias/Categoria-Bolsas.png", 
+            "img1440": "assets/Desktop/Categorias/Categoria-Bolsas.png"
+        },
+        {
+            "nome": "Calçados",
+            "id": "cat_03",
+            "img357": "assets/Mobile/Categorias/Categoria-Calçados.png", 
+            "img768": "assets/Tablet/Categorias/Categoria-Calçados.png", 
+            "img1440": "assets/Desktop/Categorias/Categoria-Calçados.png"
+        },
+        {
+            "nome": "Calças",
+            "id": "cat_04",
+            "img357": "assets/Mobile/Categorias/Categoria-Calças.png", 
+            "img768": "assets/Tablet/Categorias/Categoria-Calças.png", 
+            "img1440": "assets/Desktop/Categorias/Categoria-Calças.png"
+        },
+        {
+            "nome": "Casacos",
+            "id": "cat_05",
+            "img357": "assets/Mobile/Categorias/Categoria-Casacos.png", 
+            "img768": "assets/Tablet/Categorias/Categoria-Casacos.png", 
+            "img1440": "assets/Desktop/Categorias/Categoria-Casacos.png"
+        },
+        {
+            "nome": "Óculos",
+            "id": "cat_06",
+            "img357": "assets/Mobile/Categorias/Categoria-Oculos.png", 
+            "img768": "assets/Tablet/Categorias/Categoria-Oculos.png", 
+            "img1440": "assets/Desktop/Categorias/Categoria-Oculos.png"
+        }
+    ]
+}

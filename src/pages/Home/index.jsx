@@ -1,7 +1,11 @@
 import Banner from "components/Banner"
+import { BuscaCategoria } from "components/secoes/BuscaCategoria"
 
 export const Home = () => {
     return (
-        <Banner />
+        <main>
+            <Banner />
+            <BuscaCategoria />
+        </main>
     )
 }
