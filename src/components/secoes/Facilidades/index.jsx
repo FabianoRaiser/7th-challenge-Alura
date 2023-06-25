@@ -5,7 +5,6 @@ import { Facilidade } from "./Facilidade";
 const facilidades = facilidadesData.facilidades
 
 export const Facilidades = () => {
-    console.log(facilidades);
     return (
         <StyledFacilidades>
             <h3>Conheça todas as nossas facilidades</h3>
