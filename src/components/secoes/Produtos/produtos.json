@@ -1,0 +1,58 @@
+{
+    "produtos": [
+        {
+            "id": "prod_01",
+            "titulo": "Camiseta Conforto",
+            "descricao": "Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.",
+            "valor": "R$ 70,00",
+            "img375": "assets/Mobile/Imagens-cards/Card-camiseta.png",
+            "img768": "assets/Tablet/Imagens-cards/Card-camiseta.png",
+            "img1440": "assets/Desktop/Imagens-cards/Card-camiseta.png"
+        },
+        {
+            "id": "prod_02",
+            "titulo": "Calça Alfaiataria",
+            "descricao": "Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!",
+            "valor": "R$ 180,00",
+            "img375": "assets/Mobile/Imagens-cards/Card-calça.png",
+            "img768": "assets/Tablet/Imagens-cards/Card-calça.png",
+            "img1440": "assets/Desktop/Imagens-cards/Card-calça.png"
+        },
+        {
+            "id": "prod_03",
+            "titulo": "Tênis Chunky",
+            "descricao": "Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.",
+            "valor": "R$ 250,00",
+            "img375": "assets/Mobile/Imagens-cards/Card-tenis.png",
+            "img768": "assets/Tablet/Imagens-cards/Card-tenis.png",
+            "img1440": "assets/Desktop/Imagens-cards/Card-tenis.png"
+        },
+        {
+            "id": "prod_04",
+            "titulo": "Jaqueta Jeans",
+            "descricao": "Modelo unissex oversized com gola de camurça. Atemporal e autêntica!",
+            "valor": "R$ 150,00",
+            "img375": "assets/Mobile/Imagens-cards/Card-jaquetaJeans.png",
+            "img768": "assets/Tablet/Imagens-cards/Card-jaquetaJeans.png",
+            "img1440": "assets/Desktop/Imagens-cards/Card-jaquetaJeans.png"
+        },
+        {
+            "id": "prod_05",
+            "titulo": "Óculos Redondo",
+            "descricao": "Armação metálica em grafite com lentes arredondadas. Sem erro!",
+            "valor": "R$ 120,00",
+            "img375": "assets/Mobile/Imagens-cards/Card-oculos.png",
+            "img768": "assets/Tablet/Imagens-cards/Card-oculos.png",
+            "img1440": "assets/Desktop/Imagens-cards/Card-oculos.png"
+        },
+        {
+            "id": "prod_06",
+            "titulo": "Bolsa coringa",
+            "descricao": "Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!",
+            "valor": "R$ 120,00",
+            "img375": "assets/Mobile/Imagens-cards/Card-bolsa.png",
+            "img768": "assets/Tablet/Imagens-cards/Card-bolsa.png",
+            "img1440": "assets/Desktop/Imagens-cards/Card-bolsa.png"
+        }
+    ]
+}
