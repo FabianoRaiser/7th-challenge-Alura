@@ -1,13 +1,14 @@
 import { StyledFacilidades, StyledFacList } from "./styles"
 import facilidadesData from './facilidades.json'
 import { Facilidade } from "./Facilidade";
+import { SectionTitle } from "components/ui/commonElements";
 
 const facilidades = facilidadesData.facilidades
 
 export const Facilidades = () => {
     return (
         <StyledFacilidades>
-            <h3>Conheça todas as nossas facilidades</h3>
+            <SectionTitle>Conheça todas as nossas facilidades</SectionTitle>
             <StyledFacList>
                 {facilidades.map((facilidade) => {
                     return (

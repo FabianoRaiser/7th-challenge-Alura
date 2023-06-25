@@ -1,4 +1,3 @@
-import { fontPrincipal } from "components/ui/variaveis";
 import styled from "styled-components";
 
 export const StyledBuscaCat = styled.section`
@@ -9,13 +8,7 @@ export const StyledBuscaCat = styled.section`
 
     gap: 1.5rem;
 
-    padding: 0 1.7rem;
-    
-        & h3 {
-            font-size: 1.75rem;
-            font-weight: 500;
-            font-family: ${fontPrincipal};
-        }
+    padding: 0 1.7rem;   
 `
 
 export const StyledCatCards = styled.div`

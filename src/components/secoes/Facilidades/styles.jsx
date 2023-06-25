@@ -8,11 +8,6 @@ export const StyledFacilidades = styled.section`
     margin-top: 3rem;
 
     & h3 {
-        font-size: 1.5rem;
-        font-weight: 500;
-
-        text-align: center;
-
         padding: 2rem 1.9rem;
     }
 `

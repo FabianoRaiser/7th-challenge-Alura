@@ -1,3 +1,4 @@
+import { SectionTitle } from 'components/ui/commonElements';
 import { CategoriaCard } from './CategoriaCard';
 import categoriasData from './categorias.json'
 import { StyledBuscaCat, StyledCatCards } from './styles';
@@ -7,7 +8,7 @@ export const BuscaCategoria = () => {
 
     return (
         <StyledBuscaCat>
-            <h3>Busque por categoria:</h3>
+            <SectionTitle>Busque por categoria:</SectionTitle>
             <StyledCatCards>
             {categorias.map((categoria) => {
                 return (
