@@ -1,0 +1,28 @@
+{
+    "facilidades": [
+        {
+            "id": "fac_01",
+            "titulo": "Pague pelo pix",
+            "texto": "Ganhe 5% OFF em pagamentos via PIX",
+            "icone375": "assets/Mobile/Icones/x-diamond.png",
+            "icone768": "assets/Tablet/Icones/x-diamond.png",
+            "icone1440": "assets/Desktop/Icones/x-diamond.png"
+        },
+        {
+            "id": "fac_02",
+            "titulo": "Troca Grátis",
+            "texto": "Fique livre para trocar em até 30 dias.",
+            "icone375": "assets/Mobile/Icones/arrow-repeat.png",
+            "icone768": "assets/Tablet/Icones/arrow-repeat.png",
+            "icone1440": "assets/Desktop/Icones/arrow-repeat.png"
+        },
+        {
+            "id": "fac_03",
+            "titulo": "Sustentabilidade",
+            "texto": "Moda responsável, que respeita o meio ambiente.",
+            "icone375": "assets/Mobile/Icones/flower1.png",
+            "icone768": "assets/Tablet/Icones/flower1.png",
+            "icone1440": "assets/Desktop/Icones/flower1.png"
+        }        
+    ]
+}
