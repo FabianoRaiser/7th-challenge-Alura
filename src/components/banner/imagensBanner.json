@@ -1,0 +1,22 @@
+{
+    "imgBanners": [
+        {
+            "imgID": "img_Roxa",
+            "desktop": "assets/Desktop/Banners/banner-roxo1440.png",
+            "tablet": "assets/Tablet/Banners/banner-roxo768.png",
+            "mobile": "assets/Mobile/Banners/banner-roxo375.png"
+        },
+        {   
+            "imgID": "img_Laranja",
+            "desktop": "assets/Desktop/Banners/banner-laranja1440.png",
+            "tablet": "assets/Tablet/Banners/banner-laranja768.png",
+            "mobile": "assets/Mobile/Banners/banner-laranja375.png"
+        },
+        {
+            "imgID": "img_Coral",
+            "desktop": "assets/Desktop/Banners/banner-coral1440.png",
+            "tablet": "assets/Tablet/Banners/banner-coral768.png",
+            "mobile": "assets/Mobile/Banners/banner-coral375.png"
+        }
+    ]
+}
