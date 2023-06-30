@@ -1,5 +1,5 @@
 import { GlobalStyle } from './components/globalStyle'
-// import { AppRoutes } from 'routes';
+import { AppRoutes } from 'routes';
 
 
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      {/* <AppRoutes /> */}
+      <AppRoutes />
     </>
   )
 }
