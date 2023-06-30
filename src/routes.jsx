@@ -10,7 +10,6 @@ export const AppRoutes = () => {
         <BrowserRouter>
             <ScrollToTop />
             <Header />
-
             <Routes>
                 <Route path="/" element={<Home />} />
             </Routes>
