@@ -15,7 +15,11 @@ export const ProdutoModal = ({ modal, fechaModal, produto }) => {
             </ProdModalCabecalho>
             <ProdModalMain>
                 <ProdModalSection>
-                    <img src={img375} />
+                    <picture>
+                        <source srcSet={img768} media="(min-width: 768px)" />
+                        <source srcSet={img1440} media="(min-width: 1440px)" />
+                        <img src={img375} alt="Imagem do produto" />
+                    </picture>
                     <h2>{titulo}</h2>
                     <p>{descricao}</p>
                 </ProdModalSection>

@@ -17,11 +17,11 @@ export const ProdutoCard = ({ produto }) => {
 
     return (
         <StyledProdCard>
-            <img
-                src={img1440}
-                srcSet={`${img375} 375w, ${img768} 768w, ${img1440} 1440w`}
-                sizes="375px, (min-width: 768px) 768px, (min-width: 1440px) 1440px"
-            />
+            <picture>
+                <source srcSet={img768} media="(min-width: 768px)" />
+                <source srcSet={img1440} media="(min-width: 1440px)" />
+                <img src={img375} alt="Imagem do Produto"/>
+            </picture>
             <CardDescricao>
                 <h4>{titulo}</h4>
                 <p>{descricao}</p>

@@ -11,8 +11,9 @@ export const StyledProdCard = styled.div`
 
     max-width: 20.625rem;
 
-    & img {
+    img {
         width: 100%;
+        margin-bottom: -0.45rem;
     }
 `
 
