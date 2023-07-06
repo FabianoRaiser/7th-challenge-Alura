@@ -8,21 +8,24 @@ export const StyledCatCard = styled.div`
 
     align-items: center;
 
-    width: 45%;
+    width: max-content;
+    max-width: 45%;
+
     
     @media (min-width: 1440px) {
-        width: 30%;
+        max-width: 33%;
     }
 
-    & img {
+    img {
         width: 100%;
+        margin-bottom: -0.45rem;
     }
     
-    & span {
+    h4 {
         background-color: ${colorPreto};
         color: ${colorBranco};
 
-        width: 100%;
+        min-width: 100%;
         text-align: center;
 
     }
