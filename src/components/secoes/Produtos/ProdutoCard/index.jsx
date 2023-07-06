@@ -2,9 +2,18 @@
 
 import { Botao } from "components/ui/commonElements";
 import { CardDescricao, StyledProdCard } from "./styles";
+import { useState } from "react";
+import { ProdutoModal } from "../ProdutoModal";
+
 
 export const ProdutoCard = ({ produto }) => {
     const { titulo, descricao, valor, img375, img768, img1440 } = produto;
+    const [modal, setModal] = useState(false);
+
+    const abreModal = () => {
+        setModal(!modal)
+        console.log(modal);
+    }
 
     return (
         <StyledProdCard>
@@ -17,7 +26,8 @@ export const ProdutoCard = ({ produto }) => {
                 <h4>{titulo}</h4>
                 <p>{descricao}</p>
                 <span>{valor}</span>
-                <Botao>Ver mais</Botao>
+                <Botao onClick={abreModal}>Ver mais</Botao>
+                <ProdutoModal modal={modal} produto={produto} fechaModal={abreModal} />
             </CardDescricao>
         </StyledProdCard>
     )

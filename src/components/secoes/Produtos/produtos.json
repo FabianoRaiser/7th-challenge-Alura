@@ -7,7 +7,47 @@
             "valor": "R$ 70,00",
             "img375": "assets/Mobile/Imagens-cards/Card-camiseta.png",
             "img768": "assets/Tablet/Imagens-cards/Card-camiseta.png",
-            "img1440": "assets/Desktop/Imagens-cards/Card-camiseta.png"
+            "img1440": "assets/Desktop/Imagens-cards/Card-camiseta.png",
+            "vendedor": "Vendido e entregue por Riachuelo",
+            "cores": [
+                {
+                    "id": "prod_01_cor01",
+                    "nome": "Azul claro",
+                    "cor": "#75D7F0"
+                },
+                {
+                    "id": "prod_01_cor02",
+                    "nome": "Offwhite",
+                    "cor": "#F3F6F7"
+                },
+                {
+                    "id": "prod_01_cor03",
+                    "nome": "Preto",
+                    "cor": "#000000"
+                }
+            ],
+            "tamanhos": [
+                {
+                    "id": "prod_01_tam_01",
+                    "nome": "PP"
+                },
+                {
+                    "id": "prod_01_tam_02",
+                    "nome": "P"
+                },
+                {
+                    "id": "prod_01_tam_03",
+                    "nome": "M"
+                },
+                {
+                    "id": "prod_01_tam_04",
+                    "nome": "G"
+                },
+                {
+                    "id": "prod_01_tam_05",
+                    "nome": "GG"
+                }
+            ]
         },
         {
             "id": "prod_02",
@@ -16,7 +56,47 @@
             "valor": "R$ 180,00",
             "img375": "assets/Mobile/Imagens-cards/Card-calça.png",
             "img768": "assets/Tablet/Imagens-cards/Card-calça.png",
-            "img1440": "assets/Desktop/Imagens-cards/Card-calça.png"
+            "img1440": "assets/Desktop/Imagens-cards/Card-calça.png",
+            "vendedor": "Vendido e entregue por Riachuelo",
+            "cores": [
+                {
+                    "id": "prod_02_cor01",
+                    "nome": "Azul claro",
+                    "cor": "#75D7F0"
+                },
+                {
+                    "id": "prod_02_cor02",
+                    "nome": "Offwhite",
+                    "cor": "#F3F6F7"
+                },
+                {
+                    "id": "prod_02_cor03",
+                    "nome": "Preto",
+                    "cor": "#000000"
+                }
+            ],
+            "tamanhos": [
+                {
+                    "id": "prod_02_tam_01",
+                    "nome": "PP"
+                },
+                {
+                    "id": "prod_02_tam_02",
+                    "nome": "P"
+                },
+                {
+                    "id": "prod_02_tam_03",
+                    "nome": "M"
+                },
+                {
+                    "id": "prod_02_tam_04",
+                    "nome": "G"
+                },
+                {
+                    "id": "prod_02_tam_05",
+                    "nome": "GG"
+                }
+            ]
         },
         {
             "id": "prod_03",
@@ -25,7 +105,47 @@
             "valor": "R$ 250,00",
             "img375": "assets/Mobile/Imagens-cards/Card-tenis.png",
             "img768": "assets/Tablet/Imagens-cards/Card-tenis.png",
-            "img1440": "assets/Desktop/Imagens-cards/Card-tenis.png"
+            "img1440": "assets/Desktop/Imagens-cards/Card-tenis.png",
+            "vendedor": "Vendido e entregue por Riachuelo",
+            "cores": [
+                {
+                    "id": "prod_03_cor01",
+                    "nome": "Azul claro",
+                    "cor": "#75D7F0"
+                },
+                {
+                    "id": "prod_03_cor02",
+                    "nome": "Offwhite",
+                    "cor": "#F3F6F7"
+                },
+                {
+                    "id": "prod_03_cor03",
+                    "nome": "Preto",
+                    "cor": "#000000"
+                }
+            ],
+            "tamanhos": [
+                {
+                    "id": "prod_03_tam_01",
+                    "nome": "PP"
+                },
+                {
+                    "id": "prod_03_tam_02",
+                    "nome": "P"
+                },
+                {
+                    "id": "prod_03_tam_03",
+                    "nome": "M"
+                },
+                {
+                    "id": "prod_03_tam_04",
+                    "nome": "G"
+                },
+                {
+                    "id": "prod_03_tam_05",
+                    "nome": "GG"
+                }
+            ]
         },
         {
             "id": "prod_04",
@@ -34,7 +154,47 @@
             "valor": "R$ 150,00",
             "img375": "assets/Mobile/Imagens-cards/Card-jaquetaJeans.png",
             "img768": "assets/Tablet/Imagens-cards/Card-jaquetaJeans.png",
-            "img1440": "assets/Desktop/Imagens-cards/Card-jaquetaJeans.png"
+            "img1440": "assets/Desktop/Imagens-cards/Card-jaquetaJeans.png",
+            "vendedor": "Vendido e entregue por Riachuelo",
+            "cores": [
+                {
+                    "id": "prod_04_cor01",
+                    "nome": "Azul claro",
+                    "cor": "#75D7F0"
+                },
+                {
+                    "id": "prod_04_cor02",
+                    "nome": "Offwhite",
+                    "cor": "#F3F6F7"
+                },
+                {
+                    "id": "prod_04_cor03",
+                    "nome": "Preto",
+                    "cor": "#000000"
+                }
+            ],
+            "tamanhos": [
+                {
+                    "id": "prod_04_tam_01",
+                    "nome": "PP"
+                },
+                {
+                    "id": "prod_04_tam_02",
+                    "nome": "P"
+                },
+                {
+                    "id": "prod_04_tam_03",
+                    "nome": "M"
+                },
+                {
+                    "id": "prod_04_tam_04",
+                    "nome": "G"
+                },
+                {
+                    "id": "prod_04_tam_05",
+                    "nome": "GG"
+                }
+            ]
         },
         {
             "id": "prod_05",
@@ -43,7 +203,47 @@
             "valor": "R$ 120,00",
             "img375": "assets/Mobile/Imagens-cards/Card-oculos.png",
             "img768": "assets/Tablet/Imagens-cards/Card-oculos.png",
-            "img1440": "assets/Desktop/Imagens-cards/Card-oculos.png"
+            "img1440": "assets/Desktop/Imagens-cards/Card-oculos.png",
+            "vendedor": "Vendido e entregue por Riachuelo",
+            "cores": [
+                {
+                    "id": "prod_05_cor01",
+                    "nome": "Azul claro",
+                    "cor": "#75D7F0"
+                },
+                {
+                    "id": "prod_05_cor02",
+                    "nome": "Offwhite",
+                    "cor": "#F3F6F7"
+                },
+                {
+                    "id": "prod_05_cor03",
+                    "nome": "Preto",
+                    "cor": "#000000"
+                }
+            ],
+            "tamanhos": [
+                {
+                    "id": "prod_05_tam_01",
+                    "nome": "PP"
+                },
+                {
+                    "id": "prod_05_tam_02",
+                    "nome": "P"
+                },
+                {
+                    "id": "prod_05_tam_03",
+                    "nome": "M"
+                },
+                {
+                    "id": "prod_05_tam_04",
+                    "nome": "G"
+                },
+                {
+                    "id": "prod_05_tam_05",
+                    "nome": "GG"
+                }
+            ]
         },
         {
             "id": "prod_06",
@@ -52,7 +252,47 @@
             "valor": "R$ 120,00",
             "img375": "assets/Mobile/Imagens-cards/Card-bolsa.png",
             "img768": "assets/Tablet/Imagens-cards/Card-bolsa.png",
-            "img1440": "assets/Desktop/Imagens-cards/Card-bolsa.png"
+            "img1440": "assets/Desktop/Imagens-cards/Card-bolsa.png",
+            "vendedor": "Vendido e entregue por Riachuelo",
+            "cores": [
+                {
+                    "id": "prod_01_cor01",
+                    "nome": "Azul claro",
+                    "cor": "#75D7F0"
+                },
+                {
+                    "id": "prod_01_cor02",
+                    "nome": "Offwhite",
+                    "cor": "#F3F6F7"
+                },
+                {
+                    "id": "prod_01_cor03",
+                    "nome": "Preto",
+                    "cor": "#000000"
+                }
+            ],
+            "tamanhos": [
+                {
+                    "id": "prod_01_tam_01",
+                    "nome": "PP"
+                },
+                {
+                    "id": "prod_01_tam_02",
+                    "nome": "P"
+                },
+                {
+                    "id": "prod_01_tam_03",
+                    "nome": "M"
+                },
+                {
+                    "id": "prod_01_tam_04",
+                    "nome": "G"
+                },
+                {
+                    "id": "prod_01_tam_05",
+                    "nome": "GG"
+                }
+            ]
         }
     ]
 }
