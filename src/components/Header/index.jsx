@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import logoMobile from './Logo_mobile.png'
+import logoTablet from './Logo_tablet.png'
+import logoDesktop from './Logo_desktop.png'
 import { Menu } from './Menu';
 import { colorPreto } from 'components/ui/variaveis';
 import { CampoPesquisa } from './CampoPesquisa/index';
@@ -53,7 +55,11 @@ export const Header = () => {
             <StyledHeader>
                 <Cabecalho>
                     {/* Alterar para um link do Router-DOM */}
-                    <a><img src={logoMobile} /></a>
+                    <picture>
+                        <source srcSet={logoTablet} media="(min-width: 768px)" />
+                        <source srcSet={logoDesktop} media="(min-width: 1440px)" />
+                        <img src={logoMobile} alt='Logo da Meteora' />
+                    </picture>
                     <Menu />
                 </Cabecalho>
                 <SytledSeachArea>
