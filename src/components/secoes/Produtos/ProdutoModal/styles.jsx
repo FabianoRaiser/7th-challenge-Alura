@@ -3,7 +3,11 @@ import { colorCinza, colorPreto } from 'components/ui/variaveis';
 import styled from 'styled-components';
 
 export const StyledProdModal = styled.dialog`
+    left: 10%;
     
+    &::backdrop {
+        background: rgba(0, 0, 0, 0.7);
+    }
 `
 export const ProdModalCabecalho = styled.div`
     background-color: ${colorPreto};

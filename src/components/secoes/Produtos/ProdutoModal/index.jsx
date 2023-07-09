@@ -2,13 +2,15 @@
 import { ProdModalSection, StyledProdModal, ProdModalMain, ProdModalCabecalho } from "./styles"
 import xIcon from './X-icon.svg'
 import checkIcon from './check-circle.svg'
+import { forwardRef } from "react";
 
 
-export const ProdutoModal = ({ modal, fechaModal, produto }) => {
+// eslint-disable-next-line react/display-name
+export const ProdutoModal = forwardRef(({ produto, fechaModal}, ref) => {
     const { id, titulo, descricao, valor, img375, img768, img1440, vendedor, cores, tamanhos } = produto;
 
     return (
-        <StyledProdModal open={modal ? true : false}>
+        <StyledProdModal ref={ref}>
             <ProdModalCabecalho>
                 <img src={checkIcon} style={{ width: 32, height: 32 }} />
                 <button onClick={fechaModal} ><img src={xIcon} style={{ width: 16, height: 16 }} /></button>
@@ -60,4 +62,4 @@ export const ProdutoModal = ({ modal, fechaModal, produto }) => {
             </ProdModalMain>
         </StyledProdModal>
     )
-}
+})
